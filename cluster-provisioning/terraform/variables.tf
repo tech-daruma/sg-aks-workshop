@@ -65,7 +65,7 @@ variable "agent_count" {
 }
 
 variable "vm_size" {
-  default     = "Standard_DS3_v2"
+  default     = "Standard_B2ms"
   description = "The Node type and size based on Azure VM SKUs Reference: az vm list-sizes --location eastus -o table"
 }
 variable "os_disk_size_gb" {

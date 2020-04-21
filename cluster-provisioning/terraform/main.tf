@@ -1,5 +1,9 @@
+locals {
+   prefix =       "techdaruma"
+}
+
 resource "azurerm_storage_account" "storage" {
-  name                     = "${var.prefix}logs"
+  name                     = "${local.prefix}logs"
   resource_group_name      = var.resource_group
   location                 = var.location
   account_tier             = "Standard"
@@ -16,7 +20,7 @@ resource "azurerm_storage_account" "storage" {
 #}
 
 resource "azurerm_container_registry" "acr" {
-  name                = "${var.prefix}acr"
+  name                = "${local.prefix}acr"
   resource_group_name = var.resource_group
   location            = var.location
   sku                 = "Standard"
@@ -24,7 +28,7 @@ resource "azurerm_container_registry" "acr" {
 }
 
 resource "azurerm_log_analytics_workspace" "demo" {
-  name                = "${var.prefix}-aks-logs"
+  name                = "${local.prefix}-aks-logs"
   location            = var.location
   resource_group_name = var.resource_group
   sku                 = "PerGB2018"

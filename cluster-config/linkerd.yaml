@@ -327,7 +327,7 @@ kind: CustomResourceDefinition
 metadata:
   name: serviceprofiles.linkerd.io
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     linkerd.io/control-plane-ns: linkerd
 spec:
@@ -357,7 +357,7 @@ kind: CustomResourceDefinition
 metadata:
   name: trafficsplits.split.smi-spec.io
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     linkerd.io/control-plane-ns: linkerd
 spec:
@@ -493,7 +493,7 @@ metadata:
     linkerd.io/control-plane-component: proxy-injector
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 type: Opaque
 data:
   crt.pem: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURKakNDQWc2Z0F3SUJBZ0lRZE1WbEdsS0wvZ1N2Uk9NOWZXbktWakFOQmdrcWhraUc5dzBCQVFzRkFEQXQKTVNzd0tRWURWUVFERXlKc2FXNXJaWEprTFhCeWIzaDVMV2x1YW1WamRHOXlMbXhwYm10bGNtUXVjM1pqTUI0WApEVEl3TURNeU16RTVNakUxTWxvWERUSXhNRE15TXpFNU1qRTFNbG93TFRFck1Da0dBMVVFQXhNaWJHbHVhMlZ5ClpDMXdjbTk0ZVMxcGJtcGxZM1J2Y2k1c2FXNXJaWEprTG5OMll6Q0NBU0l3RFFZSktvWklodmNOQVFFQkJRQUQKZ2dFUEFEQ0NBUW9DZ2dFQkFMOW9wZThtd2NkMGwvSWp4ZGRobzBsV3VNeGxwTmxlTWNLTEtQcVp6bVVkanM0YQpVcTYwMzNQU2NCN21GbW9MNytpNEI5K2YxWjB3YkVTNTRaR2RtSDhieU9qRVpGNFlWSm5sRmkybEJPcVlxdTVpCkhnT0pONUJaaTFNcDZaL0ZrbW9SemllQ2RvKy8zR09YTnBrVzA0UnBsRFlLa2s0Q0xTdGt5eGZHR3RQcmxNb2kKNUZsSWRxbTQ4VnNQNmN4RU92dlZnTzFTMlNFQkc1NEM1SzIvRzZsN3doem45OVByOHBkL1lDazlpc3RYT2JHbAptMnhMZEs0WkZ5YkVLUVRlakJHYWJPQ0pkRi9FOXY1U2YzUFowTHdpQXdTd2VsMlpYek40TVJKbXRZWDJHTHBECmZyNk94eno0NzBwMTZ1Y3cveXd2NWZqMGhkLzd2MThkNzAxeThsOENBd0VBQWFOQ01FQXdEZ1lEVlIwUEFRSC8KQkFRREFnS2tNQjBHQTFVZEpRUVdNQlFHQ0NzR0FRVUZCd01CQmdnckJnRUZCUWNEQWpBUEJnTlZIUk1CQWY4RQpCVEFEQVFIL01BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQUgzUnJyVXIwUm1TU1BieVJnMUk3bTY1OHVSV1FmClNQSENYV0hEUU5QQW1lcTV3WFpSMm1LKy9DOWZMRlFjK3pPeGJTQnFGNnFRYVZwYkExODR2em55MzNYZnRyWXYKZTZoZGFmdmZDdVRsQS9pOTVXd2Y2eG1JbEhiTkEzT0pwb1FLeG8ycEtoaXRTeGZ6RTV2UUwxbFlwYkN3UDl0TQpIZHFXSWNXOGhxK3ByNlQrajl3THpqN2lwMERveUpxeWxnK1NvNXhrT29QdnM5MW85a1k0K0JjRVZSWFhzVzlZClRoYXNCRDhpcGJlQktsdlYxakZyQjdiN25JUTNWb3pUckN2UzJ4YnYrQnJiQmo2T1p5azJZYWJOaENLR3hnMkcKaFdneEQyYnJkRTBRc3RqcWdWYzZUb20vWWhlUUtyR0hLNWpIeENlciszbkZuRzY0RmlLUURmRVUKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
@@ -583,7 +583,7 @@ metadata:
     linkerd.io/control-plane-component: sp-validator
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 type: Opaque
 data:
   crt.pem: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURJakNDQWdxZ0F3SUJBZ0lRVmExbFJ1OTNzaDJHZy83clo0RURQekFOQmdrcWhraUc5dzBCQVFzRkFEQXIKTVNrd0p3WURWUVFERXlCc2FXNXJaWEprTFhOd0xYWmhiR2xrWVhSdmNpNXNhVzVyWlhKa0xuTjJZekFlRncweQpNREF6TWpNeE9USXhOVEphRncweU1UQXpNak14T1RJeE5USmFNQ3N4S1RBbkJnTlZCQU1USUd4cGJtdGxjbVF0CmMzQXRkbUZzYVdSaGRHOXlMbXhwYm10bGNtUXVjM1pqTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEEKTUlJQkNnS0NBUUVBNXFORVRCK1VxRWgwWjlKYk1NaWQ1KzRsR0NKaUEwb3laZ2QxNW1DMzJ2NWNid1BEeGpYWQpOVVh2K3F6NWYyWG9vSmhHNDVrK0tZSFpLVE05dnRXSUc1TUtGa3JBMUY3aWJtRkxoYXdFZHd5bnZ5a0JyQTY4CkhRT2dkOHNxMHUxS1JPUGNyMmdURlIvRjNsMXYyYXJhZ1RLQXh3VGE4aFVDYTRieUxLUFdXOHdPQU8yZTlMUCsKQ0ZVRVhlc0N0eEVqSm16NTZ2aGhoNFFITnJ6ZzJab3RBNFRMMGxtc2NaVk9mbHJON2gxL0RBK0crWHRtQThBVApVbWJ4eEo5M2UwTC93cWNycFVvZ1FiRDhkSU1vVTE4WEFHTzdyNUxEUGIzbHpwTFNqRlh6cXM0NG9tV0dEQ2ErCjV5VjkvRUNVT3hpa0J5NlRtc2VIenJudHZlbVBKZTFYbFFJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUMKQXFRd0hRWURWUjBsQkJZd0ZBWUlLd1lCQlFVSEF3RUdDQ3NHQVFVRkJ3TUNNQThHQTFVZEV3RUIvd1FGTUFNQgpBZjh3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUpsdWxCTCtPejFzTjlEMEY1ZXd5eW42VVJDUEc1UHJzQ0hmCnUrOTFXUnBybWJmR0tKeGlpaVBnbDdGWHdJbk40UUg0K21yZnJoaHgyUDNIR2pHb0FnWXpRNHFBcFI4UE93cFAKeWRMREtheWRkNnBwK3FrWXRLYXR4NFFlZHE3MGF5RHVneW9xRUNMZFU0QTE0N1ZCVHg1MlU0ak5wWlRWNmc1UQpqS3NmcVVHT1doSzJoZkJFVm5mTjJocmhYMDFsTHVHc0NaaE1iR3d0L0kzQ2RFZ3JMU3Rxc09ZNmNmci8xWkVEClgzM3NFSmVod1JYZzNVbGZMMWcyWXJmcHZUTmR2K1BwcjhUNG93QjdkbGxtaHRGNitPcU91SWVFSEI2clRIcm8KeW5tSVZMTDZCR25lN1ZFalduSjlsNDI0Z2VCdU9rVmV4RHlwUTVCTnhJd1NxL05JZTVJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
@@ -719,7 +719,7 @@ metadata:
     linkerd.io/control-plane-component: tap
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 type: Opaque
 data:
   crt.pem: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFVENDQWZtZ0F3SUJBZ0lSQUxpbnJlaDAyeDZwbVRrMzh6MklBbUV3RFFZSktvWklodmNOQVFFTEJRQXcKSWpFZ01CNEdBMVVFQXhNWGJHbHVhMlZ5WkMxMFlYQXViR2x1YTJWeVpDNXpkbU13SGhjTk1qQXdNekl6TVRreQpNVFV4V2hjTk1qRXdNekl6TVRreU1UVXhXakFpTVNBd0hnWURWUVFERXhkc2FXNXJaWEprTFhSaGNDNXNhVzVyClpYSmtMbk4yWXpDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBT2xHL3dmeTlpaXMKdlBlMzdvYjh1dlFVcVE0Mlp0d0hLN3A3YXdWdFJpbVNXa1MwN0MrN3V4M24rOUpjaDhqY3c3a1JqbFFRZjRKLwpMKzg4QXJFREE4OGFlU3k4c0NWWjNKZzhUV1gvMTlGVFcrbFVkRldOREJzdEJZNC9FWUtVQU5XV3MwMlBLdXNECjkrSlErWGlDRFhTdjBVV3l2MUV2VzNYVzR2SUJsdU11VTQ0VGdyWUhBQW1SdEJRUm1ZTFVRSkpkNEIxOW14ajQKTlVuRkFydmZWaXVyelY5dENYWmpmU1JyeldpRXlIRUJmSWdQZjA3dkptbG1tY3pQV1BtSCtPT0JpL05kckR2SQpMYkc5YkFEZmhvSTlLQ2liT0trb3NVWDl1WkRaTVh4UDFabzJLa3dsOVR6OFZvazVBZy84QXNGRkhEbUJtc2orCkc5K3d5TzdoaDFFQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUIwR0ExVWRKUVFXTUJRR0NDc0cKQVFVRkJ3TUJCZ2dyQmdFRkJRY0RBakFQQmdOVkhSTUJBZjhFQlRBREFRSC9NQTBHQ1NxR1NJYjNEUUVCQ3dVQQpBNElCQVFCV1Z5bW00OXdjejFObklRVmVQVExDajJnUXNFeVRudkl1eTRkeFRvc3ZZMURtV29MVWVTc2hxamZBCkhiZG5TS3gyaGgwdUoxejBzWnczQm9valNMeDZYVDlVUmh3bkQwLzdzZ051ODBCL0oxa0QzM254UUNCMTFhZWYKajNzclZFdDN6ME1Cc01mOHE4ck5OSnFHOGdiSzNmbWVGQk5aYWx2TmtkOHVJU1ZRTk5WV2RhSEVvc3E5ZC9IMwpOTkpsOU9kRUZacFlnbTUvL2dTbzVvV0RrUDMxYi9rZ2wrRXhzbUF2VDhxcWVhNGt4TCtxOUFmS1JXb0JkSXRGCm5xMTBIOGF0aXRjT0gxeUNxQ1RsbmFZbENkVlB3dVA5SWZLZTFVL2pud0dXcmZWU3lXbGh6bkdRVU5ZdCtMSU0KdEpWQi9Dc1o4UzYrOTdkNS9OTzZ5K2J3OU00awotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
@@ -851,14 +851,14 @@ metadata:
     linkerd.io/control-plane-component: controller
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 data:
   global: |
-    {"linkerdNamespace":"linkerd","cniEnabled":false,"version":"stable-2.7.0","identityContext":{"trustDomain":"cluster.local","trustAnchorsPem":"-----BEGIN CERTIFICATE-----\nMIIBgzCCASmgAwIBAgIBATAKBggqhkjOPQQDAjApMScwJQYDVQQDEx5pZGVudGl0\neS5saW5rZXJkLmNsdXN0ZXIubG9jYWwwHhcNMjAwMzIzMTkyMTQxWhcNMjEwMzIz\nMTkyMjAxWjApMScwJQYDVQQDEx5pZGVudGl0eS5saW5rZXJkLmNsdXN0ZXIubG9j\nYWwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATlN30ZQ/9DC/PQfVa4O6fGasyl\nVfc1cBKFq/fYmqQdA0f8sXySHYBMYjnjGbC1XzIxSBAnkkf82hEUwkBXygujo0Iw\nQDAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC\nMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIgBqNLT+7EEF6j0hRo\nbnMyxcnMgC/JbwUrxvDsjraX74ECIQDtoRXyKCnvI/kOMZK8ixRddbwii86MTK5G\n5f+pRF3s4Q==\n-----END CERTIFICATE-----\n","issuanceLifetime":"86400s","clockSkewAllowance":"20s","scheme":"linkerd.io/tls"},"autoInjectContext":null,"omitWebhookSideEffects":false,"clusterDomain":"cluster.local"}
+    {"linkerdNamespace":"linkerd","cniEnabled":false,"version":"stable-2.7.1","identityContext":{"trustDomain":"cluster.local","trustAnchorsPem":"-----BEGIN CERTIFICATE-----\nMIIBgzCCASmgAwIBAgIBATAKBggqhkjOPQQDAjApMScwJQYDVQQDEx5pZGVudGl0\neS5saW5rZXJkLmNsdXN0ZXIubG9jYWwwHhcNMjAwMzIzMTkyMTQxWhcNMjEwMzIz\nMTkyMjAxWjApMScwJQYDVQQDEx5pZGVudGl0eS5saW5rZXJkLmNsdXN0ZXIubG9j\nYWwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATlN30ZQ/9DC/PQfVa4O6fGasyl\nVfc1cBKFq/fYmqQdA0f8sXySHYBMYjnjGbC1XzIxSBAnkkf82hEUwkBXygujo0Iw\nQDAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC\nMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIgBqNLT+7EEF6j0hRo\nbnMyxcnMgC/JbwUrxvDsjraX74ECIQDtoRXyKCnvI/kOMZK8ixRddbwii86MTK5G\n5f+pRF3s4Q==\n-----END CERTIFICATE-----\n","issuanceLifetime":"86400s","clockSkewAllowance":"20s","scheme":"linkerd.io/tls"},"autoInjectContext":null,"omitWebhookSideEffects":false,"clusterDomain":"cluster.local"}
   proxy: |
-    {"proxyImage":{"imageName":"gcr.io/linkerd-io/proxy","pullPolicy":"IfNotPresent"},"proxyInitImage":{"imageName":"gcr.io/linkerd-io/proxy-init","pullPolicy":"IfNotPresent"},"controlPort":{"port":4190},"ignoreInboundPorts":[],"ignoreOutboundPorts":[],"inboundPort":{"port":4143},"adminPort":{"port":4191},"outboundPort":{"port":4140},"resource":{"requestCpu":"100m","requestMemory":"20Mi","limitCpu":"1","limitMemory":"250Mi"},"proxyUid":"2102","logLevel":{"level":"warn,linkerd=info"},"disableExternalProfiles":true,"proxyVersion":"stable-2.7.0","proxyInitImageVersion":"v1.3.1","debugImage":{"imageName":"gcr.io/linkerd-io/debug","pullPolicy":"IfNotPresent"},"debugImageVersion":"stable-2.7.0"}
+    {"proxyImage":{"imageName":"gcr.io/linkerd-io/proxy","pullPolicy":"IfNotPresent"},"proxyInitImage":{"imageName":"gcr.io/linkerd-io/proxy-init","pullPolicy":"IfNotPresent"},"controlPort":{"port":4190},"ignoreInboundPorts":[],"ignoreOutboundPorts":[],"inboundPort":{"port":4143},"adminPort":{"port":4191},"outboundPort":{"port":4140},"resource":{"requestCpu":"100m","requestMemory":"20Mi","limitCpu":"1","limitMemory":"250Mi"},"proxyUid":"2102","logLevel":{"level":"warn,linkerd=info"},"disableExternalProfiles":true,"proxyVersion":"stable-2.7.1","proxyInitImageVersion":"v1.3.1","debugImage":{"imageName":"gcr.io/linkerd-io/debug","pullPolicy":"IfNotPresent"},"debugImageVersion":"stable-2.7.1"}
   install: |
-    {"cliVersion":"stable-2.7.0","flags":[{"name":"ha","value":"true"}]}
+    {"cliVersion":"stable-2.7.1","flags":[{"name":"ha","value":"true"}]}
 ---
 ###
 ### Identity Controller Service
@@ -873,7 +873,7 @@ metadata:
     linkerd.io/control-plane-component: identity
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
     linkerd.io/identity-issuer-expiry: 2021-03-23T19:22:01Z
 data:
   crt.pem: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJnekNDQVNtZ0F3SUJBZ0lCQVRBS0JnZ3Foa2pPUFFRREFqQXBNU2N3SlFZRFZRUURFeDVwWkdWdWRHbDAKZVM1c2FXNXJaWEprTG1Oc2RYTjBaWEl1Ykc5allXd3dIaGNOTWpBd016SXpNVGt5TVRReFdoY05NakV3TXpJegpNVGt5TWpBeFdqQXBNU2N3SlFZRFZRUURFeDVwWkdWdWRHbDBlUzVzYVc1clpYSmtMbU5zZFhOMFpYSXViRzlqCllXd3dXVEFUQmdjcWhrak9QUUlCQmdncWhrak9QUU1CQndOQ0FBVGxOMzBaUS85REMvUFFmVmE0TzZmR2FzeWwKVmZjMWNCS0ZxL2ZZbXFRZEEwZjhzWHlTSFlCTVlqbmpHYkMxWHpJeFNCQW5ra2Y4MmhFVXdrQlh5Z3VqbzBJdwpRREFPQmdOVkhROEJBZjhFQkFNQ0FRWXdIUVlEVlIwbEJCWXdGQVlJS3dZQkJRVUhBd0VHQ0NzR0FRVUZCd01DCk1BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0NnWUlLb1pJemowRUF3SURTQUF3UlFJZ0JxTkxUKzdFRUY2ajBoUm8KYm5NeXhjbk1nQy9KYndVcnh2RHNqcmFYNzRFQ0lRRHRvUlh5S0Nudkkva09NWks4aXhSZGRid2lpODZNVEs1Rwo1ZitwUkYzczRRPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ==
@@ -888,7 +888,7 @@ metadata:
     linkerd.io/control-plane-component: identity
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -902,11 +902,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: identity
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: identity
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-identity
@@ -921,9 +921,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: identity
         linkerd.io/control-plane-ns: linkerd
@@ -955,7 +955,7 @@ spec:
       - args:
         - identity
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1049,7 +1049,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1140,7 +1140,7 @@ metadata:
     linkerd.io/control-plane-component: controller
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -1154,11 +1154,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: controller
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: controller
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-controller
@@ -1173,9 +1173,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: controller
         linkerd.io/control-plane-ns: linkerd
@@ -1210,7 +1210,7 @@ spec:
         - -destination-addr=linkerd-dst.linkerd.svc.cluster.local:8086
         - -controller-namespace=linkerd
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1302,7 +1302,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1390,7 +1390,7 @@ metadata:
     linkerd.io/control-plane-component: destination
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -1404,11 +1404,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: destination
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: destination
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-destination
@@ -1423,9 +1423,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: destination
         linkerd.io/control-plane-ns: linkerd
@@ -1460,7 +1460,7 @@ spec:
         - -controller-namespace=linkerd
         - -enable-h2-upgrade=true
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1552,7 +1552,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1639,11 +1639,11 @@ metadata:
   labels:
     app.kubernetes.io/name: heartbeat
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: heartbeat
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   schedule: "31 19 * * * "
   successfulJobsHistoryLimit: 0
@@ -1654,7 +1654,7 @@ spec:
           labels:
             linkerd.io/control-plane-component: heartbeat
           annotations:
-            linkerd.io/created-by: linkerd/cli stable-2.7.0
+            linkerd.io/created-by: linkerd/cli stable-2.7.1
         spec:
           nodeSelector:
             beta.kubernetes.io/os: linux
@@ -1662,7 +1662,7 @@ spec:
           restartPolicy: Never
           containers:
           - name: heartbeat
-            image: gcr.io/linkerd-io/controller:stable-2.7.0
+            image: gcr.io/linkerd-io/controller:stable-2.7.1
             imagePullPolicy: IfNotPresent
             args:
             - "heartbeat"
@@ -1692,7 +1692,7 @@ metadata:
     linkerd.io/control-plane-component: web
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -1709,11 +1709,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: web
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: web
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-web
@@ -1728,9 +1728,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: web
         linkerd.io/control-plane-ns: linkerd
@@ -1745,7 +1745,7 @@ spec:
         - -controller-namespace=linkerd
         - -log-level=info
         - -enforced-host=^(localhost|127\.0\.0\.1|linkerd-web\.linkerd\.svc\.cluster\.local|linkerd-web\.linkerd\.svc|\[::1\])(:\d+)?$
-        image: gcr.io/linkerd-io/web:stable-2.7.0
+        image: gcr.io/linkerd-io/web:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1837,7 +1837,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -1925,7 +1925,7 @@ metadata:
     linkerd.io/control-plane-component: prometheus
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 data:
   prometheus.yml: |-
     global:
@@ -2055,7 +2055,7 @@ metadata:
     linkerd.io/control-plane-component: prometheus
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -2069,11 +2069,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: prometheus
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: prometheus
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-prometheus
@@ -2088,9 +2088,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: prometheus
         linkerd.io/control-plane-ns: linkerd
@@ -2201,7 +2201,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2291,7 +2291,7 @@ metadata:
     linkerd.io/control-plane-component: grafana
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 data:
   grafana.ini: |-
     instance_name = linkerd-grafana
@@ -2351,7 +2351,7 @@ metadata:
     linkerd.io/control-plane-component: grafana
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -2365,11 +2365,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: grafana
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: grafana
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-grafana
@@ -2384,9 +2384,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: grafana
         linkerd.io/control-plane-ns: linkerd
@@ -2398,7 +2398,7 @@ spec:
       - env:
         - name: GF_PATHS_DATA
           value: /data
-        image: gcr.io/linkerd-io/grafana:stable-2.7.0
+        image: gcr.io/linkerd-io/grafana:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2490,7 +2490,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2582,11 +2582,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: proxy-injector
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: proxy-injector
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-proxy-injector
@@ -2599,9 +2599,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: proxy-injector
         linkerd.io/control-plane-ns: linkerd
@@ -2633,7 +2633,7 @@ spec:
       - args:
         - proxy-injector
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2728,7 +2728,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2815,7 +2815,7 @@ metadata:
     linkerd.io/control-plane-component: proxy-injector
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -2838,7 +2838,7 @@ metadata:
     linkerd.io/control-plane-component: sp-validator
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -2852,11 +2852,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: sp-validator
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: sp-validator
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-sp-validator
@@ -2869,9 +2869,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: sp-validator
         linkerd.io/control-plane-ns: linkerd
@@ -2903,7 +2903,7 @@ spec:
       - args:
         - sp-validator
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -2996,7 +2996,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -3084,7 +3084,7 @@ metadata:
     linkerd.io/control-plane-component: tap
     linkerd.io/control-plane-ns: linkerd
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
 spec:
   type: ClusterIP
   selector:
@@ -3101,11 +3101,11 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   annotations:
-    linkerd.io/created-by: linkerd/cli stable-2.7.0
+    linkerd.io/created-by: linkerd/cli stable-2.7.1
   labels:
     app.kubernetes.io/name: tap
     app.kubernetes.io/part-of: Linkerd
-    app.kubernetes.io/version: stable-2.7.0
+    app.kubernetes.io/version: stable-2.7.1
     linkerd.io/control-plane-component: tap
     linkerd.io/control-plane-ns: linkerd
   name: linkerd-tap
@@ -3120,9 +3120,9 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.7.0
+        linkerd.io/created-by: linkerd/cli stable-2.7.1
         linkerd.io/identity-mode: default
-        linkerd.io/proxy-version: stable-2.7.0
+        linkerd.io/proxy-version: stable-2.7.1
       labels:
         linkerd.io/control-plane-component: tap
         linkerd.io/control-plane-ns: linkerd
@@ -3155,7 +3155,7 @@ spec:
         - tap
         - -controller-namespace=linkerd
         - -log-level=info
-        image: gcr.io/linkerd-io/controller:stable-2.7.0
+        image: gcr.io/linkerd-io/controller:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -3252,7 +3252,7 @@ spec:
           value: linkerd-destination.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
         - name: LINKERD2_PROXY_TAP_SVC_NAME
           value: linkerd-tap.$(_l5d_ns).serviceaccount.identity.$(_l5d_ns).$(_l5d_trustdomain)
-        image: gcr.io/linkerd-io/proxy:stable-2.7.0
+        image: gcr.io/linkerd-io/proxy:stable-2.7.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
