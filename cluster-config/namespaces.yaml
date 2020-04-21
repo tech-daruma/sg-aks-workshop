@@ -54,3 +54,10 @@ metadata:
   name: dummy-ns
   labels:
     app: dummy-ns
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bio
+  labels:
+    app: biometrics
